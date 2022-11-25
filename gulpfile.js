@@ -14,7 +14,8 @@ function css(done) {
 }
 
 function dev() {
-  watch("src/scss/app.scss", css);
+  watch("src/scss/**/*.scss", css);
+  // watch("src/scss/app.scss", css);
 }
 
 exports.css = css;

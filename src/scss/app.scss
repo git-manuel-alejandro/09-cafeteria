@@ -1,4 +1,7 @@
-div {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
+@use 'header';
+@use 'base';
+
+// div {
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+// }
